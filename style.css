@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.baner {
+    max-width: 1920px;
+    height: 919px;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(assets/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-container{
+    border: 2px solid yellow;
+    max-width: 1020px;
+    height: 390px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
